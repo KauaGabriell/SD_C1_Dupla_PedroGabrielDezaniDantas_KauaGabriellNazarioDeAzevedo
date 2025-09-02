@@ -14,7 +14,7 @@ const usuarioEstatico = {
   senha: '123',
 };
 
-// Criando ENDPOINT POST /login (AGORA CORRIGIDO)
+// Criando ENDPOINT POST /login
 app.post('/login', (requisicao, resposta) => {
   const { usuario, senha } = requisicao.body;
   

@@ -1,7 +1,7 @@
 // Aguarda o carregamento completo do HTML antes de executar o script
 document.addEventListener('DOMContentLoaded', () => {
 
-    // Seleciona o formulário usando o ID correto: 'loginForm'
+    // Seleciona o formulário 
     const loginForm = document.getElementById('loginForm');
 
     loginForm.addEventListener('submit', async function(event) {
@@ -12,10 +12,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const usuario = document.getElementById('usuario').value;
         const senha = document.getElementById('senha').value;
         
-        // Seleciona o elemento de mensagem usando o ID correto: 'message'
+        // Seleciona o elemento de mensagem '
         const messageElement = document.getElementById('message');
 
-        // URL do backend com a porta correta: 3001
+        // URL do backend
         const backendUrl = 'http://localhost:3001/login';
 
         // Limpa mensagens anteriores
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 headers: {
                     'Content-Type': 'application/json'
                 },
-                // Corpo da requisição com os nomes corretos: 'usuario' e 'senha'
+                // Corpo da requisição
                 body: JSON.stringify({ usuario: usuario, senha: senha })
             });
 
