@@ -4,8 +4,8 @@ Este projeto foi desenvolvido para a disciplina de Sistemas Distribuídos e cons
 
 ## 👥 Integrantes
 
-* **Nome Completo do Aluno 1**
-* **Nome Completo do Aluno 2**
+* **Kauã Gabriell Nazário de Azevedo 1**
+* **Pedro Gabriel Dezani Dantas 2**
 
 ## 💻 Tecnologias Utilizadas
 
