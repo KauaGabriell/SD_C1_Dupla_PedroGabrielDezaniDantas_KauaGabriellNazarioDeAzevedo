@@ -1,0 +1,28 @@
+### 1. Teste de Login com Sucesso
+# @name loginSucesso
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+  "usuario": "admin",
+  "senha": "123"
+}
+
+### 2. Teste de Login com Dados Incorretos
+# @name loginFalha
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+  "usuario": "admin",
+  "senha": "senhaerrada"
+}
+
+### 3. Teste de Requisição Incorreta (Faltando a senha)
+# @name loginBadRequest
+POST http://localhost:3001/login
+Content-Type: application/json
+
+{
+  "usuario": "admin"
+}
